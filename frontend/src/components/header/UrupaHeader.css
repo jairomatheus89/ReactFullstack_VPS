@@ -1,0 +1,47 @@
+header{
+    display:flex;
+    justify-content: center;
+    /* background-color: green; */
+    font-size: 22pt;
+    font-style: italic;
+}
+
+.headerCenter{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+    width: 85%;
+    font-size:30pt;
+}
+
+.spinner{
+    width: 140px;
+    height: 140px;
+    perspective: 1000px;
+}
+
+.spinner img {
+    width: 100%;
+    height: auto;
+    transform-origin: center;
+    animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: scaleX(1) rotateY(0deg);
+    }
+    25% {
+        transform: scaleX(0.1) rotateY(90deg);
+    }
+    50% {
+        transform: scaleX(1) rotateY(180deg);
+    }
+    75% {
+        transform: scaleX(0.1) rotateY(270deg);
+    }
+    100% {
+        transform: scaleX(1) rotateY(360deg);
+    }
+}

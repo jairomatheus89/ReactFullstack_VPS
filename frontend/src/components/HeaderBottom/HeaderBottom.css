@@ -1,0 +1,19 @@
+.headerbottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    height: 40px;
+}
+
+.headerbottomCenter{
+    display:flex;
+    color:gold;
+    font-size:18pt;
+    font-weight: bolder;
+    /* background-color:yellow; */
+    width:700px;
+    justify-content: space-between;
+}
